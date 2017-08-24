@@ -1,0 +1,24 @@
+{
+  "name": "inversify-playground",
+  "version": "1.0.0",
+  "description": "Inversion of Control playground with Inversify",
+  "main": "./src/inversify-playground.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/inversify-playground.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thibaultboursier/inversify-playground.git"
+  },
+  "author": "Thibault Boursier",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thibaultboursier/inversify-playground/issues"
+  },
+  "homepage": "https://github.com/thibaultboursier/inversify-playground#readme",
+  "dependencies": {
+    "inversify": "^4.3.0",
+    "reflect-metadata": "^0.1.10"
+  }
+}

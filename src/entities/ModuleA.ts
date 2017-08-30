@@ -7,7 +7,9 @@ class ModuleA {
     index: number;
     item: Array<string>;
 
-    constructor() {
+    constructor({ index, item }) {
+        this.index = index;
+        this.item = item;
     }
 
     init() {
